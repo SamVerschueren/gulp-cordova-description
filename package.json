@@ -17,10 +17,18 @@
     "description",
     "config"
   ],
-  "author": "Sam Verschueren",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SamVerschueren/gulp-cordova-description/issues"
   },
-  "homepage": "https://github.com/SamVerschueren/gulp-cordova-description"
+  "homepage": "https://github.com/SamVerschueren/gulp-cordova-description",
+  "dependencies": {
+    "cordova-config": "0.0.1",
+    "gulp-util": "^3.0.4",
+    "through2": "^0.6.5"
+  }
 }

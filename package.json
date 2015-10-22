@@ -4,7 +4,7 @@
   "description": "Sets the description of the cordova project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
     "description",
     "config"
   ],
+  "files": [
+    "index.js"
+  ],
   "author": {
     "name": "Sam Verschueren",
     "email": "sam.verschueren@gmail.com"
@@ -27,8 +30,18 @@
   },
   "homepage": "https://github.com/SamVerschueren/gulp-cordova-description",
   "dependencies": {
-    "cordova-config": "0.0.1",
+    "cordova-config": "^0.6.2",
     "gulp-util": "^3.0.4",
     "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "temp-write": "^2.0.1",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
   }
 }

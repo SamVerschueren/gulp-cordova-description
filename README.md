@@ -5,7 +5,7 @@
 ## Installation
 
 ```bash
-npm install save-dev gulp-cordova-description
+npm install --save-dev gulp-cordova-description
 ```
 
 ## Usage

@@ -1,11 +1,11 @@
-# gulp-cordova-description
+# gulp-cordova-description [![Build Status](https://travis-ci.org/SamVerschueren/gulp-cordova-description.svg)](https://travis-ci.org/SamVerschueren/gulp-cordova-description)
 
 > Sets the description of the cordova project
 
 ## Installation
 
 ```bash
-npm install save-dev gulp-cordova-description
+npm install --save-dev gulp-cordova-description
 ```
 
 ## Usage

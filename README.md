@@ -4,18 +4,19 @@
 
 ## Installation
 
-```bash
+```
 npm install --save-dev gulp-cordova-description
 ```
 
+
 ## Usage
 
-```JavaScript
-var gulp = require('gulp'),
-    create = require('gulp-cordova-create'),
-    description = require('gulp-cordova-description');
+```javascript
+const gulp = require('gulp');
+const create = require('gulp-cordova-create');
+const description = require('gulp-cordova-description');
 
-gulp.task('build', function() {
+gulp.task('build', () => {
     return gulp.src('dist')
         .pipe(create())
         .pipe(description('This is the description of my application.'));
@@ -23,6 +24,7 @@ gulp.task('build', function() {
 ```
 
 This will set the description tag in the `config.xml` file.
+
 
 ## API
 
@@ -35,13 +37,11 @@ Type: `string`
 
 The description of the application.
 
+
 ## Related
 
 See [`gulp-cordova`](https://github.com/SamVerschueren/gulp-cordova) for the full list of available packages.
 
-## Contributors
-
-- Sam Verschueren [<sam.verschueren@gmail.com>]
 
 ## License
 

@@ -1,6 +1,10 @@
-# gulp-cordova-description [![Build Status](https://travis-ci.org/SamVerschueren/gulp-cordova-description.svg)](https://travis-ci.org/SamVerschueren/gulp-cordova-description)
+# gulp-cordova-description 
+
+[![Build Status](https://travis-ci.org/SamVerschueren/gulp-cordova-description.svg)](https://travis-ci.org/SamVerschueren/gulp-cordova-description)
+[![Coverage Status](https://coveralls.io/repos/SamVerschueren/gulp-cordova-description/badge.svg?branch=master)](https://coveralls.io/r/SamVerschueren/gulp-cordova-description?branch=master)
 
 > Sets the description of the cordova project
+
 
 ## Installation
 
